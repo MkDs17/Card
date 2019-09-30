@@ -1,0 +1,117 @@
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Raleway, sans-serif;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+}
+h4 {
+    margin: 50 0 4;
+    color: #00394C;
+    font-size: 1.35em;
+}
+p {
+    margin: 5px;
+    font-size: .9em;
+    color: #00394C;
+    font-weight: 500;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #aaa;
+    transition: 1s;
+    margin-top: 30px;
+}
+.shadow {
+    box-shadow: 0px 0px 20px #aaa;
+}
+
+.high-part {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    background-image: linear-gradient( rgba(0, 0, 0, .1), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1526644779818-f192864daf18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2081&q=80);
+    border-radius: 10px 10px 0px 0px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img {
+    position: absolute;
+    top: 55px;
+    left: 105px;
+    background-image: url(https://images.unsplash.com/photo-1518829579054-df4bf5d42da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80);
+    width: 85px;
+    height: 85px;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 50px;
+    box-shadow: 0px 1px 10px #333;
+}
+
+.middle-part {
+    width: 300px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.mini-title {
+    font-size: .9em;
+    font-weight: lighter;
+}
+
+.low-part {
+    width: 300px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #00394C;
+}
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.twitter:hover {
+    transition: 1s;
+    text-shadow: 1px 1px 20px #ccc;
+    color: #1DA1F2;
+}
+.github:hover {
+    transition: 1s;
+    text-shadow: 1px 1px 20px #ccc;
+    color: #1B1F23;
+}
+.codepen:hover {
+    transition: 1s;
+    text-shadow: 1px 1px 20px #ccc;
+    color: #090907;
+}
+.instagram:hover {
+    transition: 1s;
+    text-shadow: 1px 1px 20px #ccc;
+    color: #8D49C1;
+}
+.linkedin:hover {
+    transition: 1s;
+    text-shadow: 1px 1px 20px #ccc;
+    color: #177CB4;
+}
+
+
+
