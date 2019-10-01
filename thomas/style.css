@@ -1,0 +1,177 @@
+body {
+    font-family: Raleway, sans-serif;
+    overflow: hidden;
+}
+
+p,
+a {
+    font-weight: 500;
+    color: #00394C;
+    font-size: 15px;
+    text-decoration: inherit;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #aaa;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.card-header {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient( rgba(0, 0, 0, .1), rgba(0, 0, 0, 0.5) ),url('https://images.unsplash.com/photo-1526644779818-f192864daf18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-logo {
+    position: absolute;
+    background-image: url('https://images.unsplash.com/photo-1518829579054-df4bf5d42da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60');
+    background-size: cover;
+    background-position: center bottom;
+    top: 85px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 10px #333;
+}
+
+.card-content {
+    text-align: center;
+    width: 100%;
+    height: 310px;
+}
+
+/* The title of the card (better than focus the h4 element) */ 
+.card-content-title {
+    text-align: center;
+    color: #00394C;
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+/* Position relative for the absolute popover */
+.card-content-body {
+    position: relative;
+}
+
+
+.card-content-body .ffs {
+    font-weight: bold;
+}
+
+.popover {
+    background-color: rgba(0, 57, 76, .8);
+    padding: 1em;
+    color: white;
+    font-size: .6em;
+    border-radius: 0px 5px 5px 5px;
+    position: absolute;
+    top: 23px;
+    left: 100px;
+}
+
+.popover-hidden {
+    background-color: rgba(0, 57, 76, 0);
+    display: none;
+}
+
+.mini-title {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.social {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.twitter:hover,
+.github:hover,
+.codepen:hover,
+.instagram:hover,
+.linkedin:hover {
+    transition: 1s;
+    text-shadow: 1px 1px 20px #ccc;
+    color: #1DA1F2;
+}
+
+.github:hover {
+    color: #1B1F23;
+}
+
+.codepen:hover {
+    color: #090907;
+}
+
+.instagram:hover {
+    color: #8D49C1;
+}
+
+.linkedin:hover {
+    color: #177CB4;
+}
+
+.card-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 57, 76, 0.9);
+    border-radius: 0 0px 10px 10px;
+    color: white;
+    width: 100%;
+}
+
+.card-bottom p {
+    color: #fff;
+}
+
+.skills {
+    position: absolute;
+    bottom: 0;
+    height: 0px;
+    transition: all 0.5s linear;
+    margin-top: 682px;
+    border-radius: 10px;
+}
+
+.card-bottom i {
+    margin-bottom: 10px;
+}
+
+.card-bottom:hover .skills {
+    position: absolute;
+    display: block;
+    top: 138px;
+    width: 300px;
+    height: 383px;
+    background-color: rgb(0, 57, 76);
+    border-radius: 0 0 10px 10px;
+    margin-top:0;
+}
