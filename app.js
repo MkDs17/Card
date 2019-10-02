@@ -1,11 +1,11 @@
 var app = {
     
     card: document.getElementById('card'),
-    ffs: document.getElementById('FFS'),
+    ffs: document.getElementById('ffs'),
     popover :document.getElementById('popover'),
     
 
-    getShadow: function() {
+    getShadow() {
         app.card.classList.toggle('shadow');
     },
 
