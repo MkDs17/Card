@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Card Thomas</title>
+    <title>Card WebDev</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/32749799fc.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.remixicon.com/releases/v2.0.0/remixicon.css" rel="stylesheet">
   </head>
     <body>
         <section>
@@ -27,28 +27,41 @@
                             <p>Feel free to contact me on</p>
                         <div class="social-icons">
                             <a class="twitter" href="https://twitter.com/mkdesign14">
-                                <i class="fab fa-twitter"></i>
+                                <i class="ri-twitter-fill"></i>
                             </a>
                             <a class="instagram" href="https://www.instagram.com/mkds14/">
-                                <i class="fab fa-instagram"></i>
+                                <i class="ri-instagram-fill"></i>
                             </a>
                             <a class="linkedin" href="https://www.linkedin.com/in/mickael-rassicot-1348a4b2/">
-                                <i class="fab fa-linkedin-in"></i>
+                                <i class="ri-linkedin-box-fill"></i>
                             </a>
                             <a class="github" href="https://github.com/MkDs17">
-                                <i class="fab fa-github"></i>
+                                <i class="ri-github-fill"></i>
                             </a>
                             <a class="codepen" href="https://twitter.com/mkdesign14">
-                                <i class="fab fa-codepen"></i>
+                                <i class="ri-codepen-line"></i>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="card-bottom">
                     <p>Wanna see my skills</p>
-                    <i class="fas fa-arrow-up"></i>
+                    <i class="ri-arrow-up-s-line"></i>
                     <div class="skills">
-                        <div class="skills-contenu"></div>
+                        <div class="skills-contenu">
+                            <div class="front">
+                                <h4>Front Skills</h4>
+                                    <li>Test</li>
+                                    <li>Test 1</li>
+                                    <li>Test 2</li>
+                            </div>
+                            <div class="back">
+                                <h4>Back Skills</h4>
+                                    <li>Test</li>
+                                    <li>Test 1</li>
+                                    <li>Test 2</li>
+                            </div>
+                        </div>
                     </div>
                 </div>
         </section>

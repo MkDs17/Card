@@ -1,6 +1,5 @@
 body {
     font-family: Raleway, sans-serif;
-    overflow: hidden;
 }
 
 p,
@@ -20,6 +19,7 @@ section {
 
 .card {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -27,6 +27,7 @@ section {
     box-shadow: 0px 0px 20px #ccc;
     width: 300px;
     margin-top: 30px;
+    overflow: hidden;
 }
 
 .shadow {
@@ -50,7 +51,7 @@ section {
     background-image: url('https://images.unsplash.com/photo-1518829579054-df4bf5d42da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60');
     background-size: cover;
     background-position: center bottom;
-    top: 85px;
+    top: 55px;
     width: 85px;
     height: 85px;
     border-radius: 50px;
@@ -69,7 +70,7 @@ section {
     text-align: center;
     color: #00394C;
     font-size: 20px;
-    margin-top: 35px;
+    margin-top: 50px;
 }
 
 /* Position relative for the absolute popover */
@@ -115,7 +116,9 @@ section {
     width: 100%;
     margin-top: 20px;
 }
-
+.social-icons i {
+    font-size: 20px;
+}
 .twitter:hover,
 .github:hover,
 .codepen:hover,
@@ -161,33 +164,28 @@ section {
 }
 
 
-/* .skills {
+ .skills {
     position: absolute;
     bottom: 0;
-    height: 0px;
-    transition: all .3s linear;
-    margin-top: 383px;
-    border-radius: 10px;
+    height: 383px;
+    width: 300px;
+    transition: all 1s;
+    top: 410px;
+    border-radius: 0 0 10px 10px;
+    margin-top:100px;
+    display: flex;
 }
 
 .card-bottom:hover .skills {
-    position: absolute;
-    display: block;
-    top: 138px;
-    width: 300px;
-    height: 383px;
-    background-color: rgb(0, 57, 76);
-    border-radius: 0 0 10px 10px;
-    margin-top:0;
-} 
- */
+    margin-top: 0px;
+    top: 100px;
+    background-color :rgba(0, 57, 76, .99);
+}
 
- .card-bottom:hover {
-    position: absolute;
-    top: 138px;
-    width: 300px;
-    height: 383px;
-    background-color: rgb(0, 57, 76);
-    border-radius: 0 0 10px 10px;
-    margin-top:0;
+.skills-contenu {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px;
 }
