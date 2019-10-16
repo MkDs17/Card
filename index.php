@@ -4,7 +4,7 @@
     <title>Card WebDev</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.remixicon.com/releases/v2.0.0/remixicon.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/32749799fc.js" crossorigin="anonymous"></script>
   </head>
     <body>
         <section>
@@ -27,39 +27,44 @@
                             <p>Feel free to contact me on</p>
                         <div class="social-icons">
                             <a class="twitter" href="https://twitter.com/mkdesign14">
-                                <i class="ri-twitter-fill"></i>
+                                <i class="fab fa-twitter"></i>
                             </a>
                             <a class="instagram" href="https://www.instagram.com/mkds14/">
-                                <i class="ri-instagram-fill"></i>
+                                <i class="fab fa-instagram"></i>
                             </a>
                             <a class="linkedin" href="https://www.linkedin.com/in/mickael-rassicot-1348a4b2/">
-                                <i class="ri-linkedin-box-fill"></i>
+                                <i class="fab fa-linkedin"></i>
                             </a>
                             <a class="github" href="https://github.com/MkDs17">
-                                <i class="ri-github-fill"></i>
+                                <i class="fab fa-github"></i>
                             </a>
                             <a class="codepen" href="https://twitter.com/mkdesign14">
-                                <i class="ri-codepen-line"></i>
+                                <i class="fab fa-codepen"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="card-bottom">
+                <div id="bottomCard" class="card-bottom">
                     <p>Wanna see my skills</p>
-                    <i class="ri-arrow-up-s-line"></i>
+                    <i class="fas fa-long-arrow-alt-up"></i>
                     <div class="skills">
-                        <div class="skills-contenu">
-                            <div class="front">
-                                <h4>Front Skills</h4>
-                                    <li>Test</li>
-                                    <li>Test 1</li>
-                                    <li>Test 2</li>
-                            </div>
-                            <div class="back">
-                                <h4>Back Skills</h4>
-                                    <li>Test</li>
-                                    <li>Test 1</li>
-                                    <li>Test 2</li>
+                        <div class="skills-box">
+                            <div class="skills-contenu">
+                                <div class="front">
+                                    <h5>Front Skills</h5>
+                                    
+                                            
+                                            <li id="html" class="bar"><span class="label"> HTML <i class="fab fa-html5"></i></span></li>
+                                            <li id="css" class="bar"><span class="label"> CSS <i class="fab fa-css3-alt"></i></span></li>
+                                            <li id="js" class="bar"><span class="label"> JS <i class="fab fa-js-square"></i></span></li>
+                                        
+                                </div>
+                                <div class="back">
+                                    <h5>Back Skills</h5>
+                                        <li>Test</li>
+                                        <li>Test 1</li>
+                                        <li>Test 2</li>
+                                </div>
                             </div>
                         </div>
                     </div>

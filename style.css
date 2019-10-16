@@ -10,6 +10,10 @@ a {
     text-decoration: inherit;
 }
 
+li {
+    list-style: none;
+}
+
 section {
     display: flex;
     flex-direction: row;
@@ -155,14 +159,13 @@ section {
     color: white;
     width: 100%;
 }
-
-.card-bottom p {
-    color: #fff;
-}
 .card-bottom i {
     margin-bottom: 10px;
 }
 
+.card-bottom p {
+    color: #fff;
+}
 
  .skills {
     position: absolute;
@@ -179,13 +182,55 @@ section {
 .card-bottom:hover .skills {
     margin-top: 0px;
     top: 100px;
-    background-color :rgba(0, 57, 76, .99);
+    background-color :rgba(0, 57, 76, .995);
 }
 
-.skills-contenu {
+.skills-box {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     padding: 20px;
+}
+.skills-box h5 {
+    margin: 0 0 10px;
+    color: #00394C;
+}
+
+.skills-contenu {
+    padding: 13px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px black;
+}
+
+.front, .back {
+    margin: 20px 0;
+}
+
+.bar {
+    display: flex;
+    width: 0%;
+    background: linear-gradient(to left, #DB796C, rgba(219, 121, 108, .8));
+    margin: 5px 0px;
+    border-radius: 0px 10px 10px 0;
+    height: 12px;
+    transition: width 2s;
+}
+
+.label {
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 1px 5px black;
+}
+
+.neuf-cinq {
+    width: 95%;
+}
+.neuf {
+    width: 90%;
+}
+.huit-cinq {
+    width: 85%;
 }
