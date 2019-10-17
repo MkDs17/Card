@@ -46,21 +46,25 @@
                 </div>
                 <div id="bottomCard" class="card-bottom">
                     <p>Wanna see my skills</p>
-                    <i class="fas fa-long-arrow-alt-up"></i>
+                    <i class="fas fa-caret-up clignot"></i>
                     <div class="skills">
                         <div class="skills-box">
                             <div class="skills-contenu">
-                                <div class="front">
-                                    <h5>Front Skills</h5>
+                                <div class="dev">
+                                    <h5>Development Skills</h5>
                                     
                                             
-                                            <li id="html" class="bar"><span class="label"> HTML <i class="fab fa-html5"></i></span></li>
-                                            <li id="css" class="bar"><span class="label"> CSS <i class="fab fa-css3-alt"></i></span></li>
-                                            <li id="js" class="bar"><span class="label"> JS <i class="fab fa-js-square"></i></span></li>
+                                            <li class="bar neuf"><span class="label"> HTML </span></li>
+                                            <li class="bar neuf"><span class="label"> CSS </i></span></li>
+                                            <li class="bar huit-cinq"><span class="label"> JS </span></li>
+                                            <li class="bar huit-cinq"><span class="label"> PHP </span></li>
+                                            <li class="bar huit"><span class="label"> React JS </span></li>
+                                            <li class="bar huit"><span class="label"> SQL </span></li>
+                                            <li class="bar huit"><span class="label"> Git </span></li>
                                         
                                 </div>
-                                <div class="back">
-                                    <h5>Back Skills</h5>
+                                <div class="prod">
+                                    <h5>Productivity Skills</h5>
                                         <li>Test</li>
                                         <li>Test 1</li>
                                         <li>Test 2</li>

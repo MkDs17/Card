@@ -1,3 +1,9 @@
+@-webkit-keyframes clignote {
+    0%{text-shadow:0px 0px 10px #4183C4;}
+    50%{text-shadow:0px 0px 0px #4183C4;}
+    100%{text-shadow:0px 0px 10px #4183C4;}
+}
+
 body {
     font-family: Raleway, sans-serif;
 }
@@ -167,6 +173,12 @@ section {
     color: #fff;
 }
 
+.clignot {
+    -webkit-animation-name: clignote; /*on affecte l'animation clignote à notre bouton */
+    -webkit-animation-duration: 1s; /*on définit la durée de l'animation à 1s */
+    -webkit-animation-iteration-count:infinite; /*on dit que l'animation se répétera à l'infini. */
+}
+
  .skills {
     position: absolute;
     bottom: 0;
@@ -204,15 +216,16 @@ section {
     box-shadow: 0px 2px 10px black;
 }
 
-.front, .back {
+.dev, .prod {
     margin: 20px 0;
 }
 
 .bar {
     display: flex;
     width: 0%;
-    background: linear-gradient(to left, #DB796C, rgba(219, 121, 108, .8));
+    background: linear-gradient(to left, rgb(0, 57, 76), rgba(0, 57, 76, .6));
     margin: 5px 0px;
+    border: 1px solid #efefef;
     border-radius: 0px 10px 10px 0;
     height: 12px;
     transition: width 2s;
@@ -225,12 +238,19 @@ section {
     text-shadow: 0px 1px 5px black;
 }
 
-.neuf-cinq {
+.card-bottom:hover .neuf-cinq {
+    transition: 2.5s;
     width: 95%;
 }
-.neuf {
+.card-bottom:hover .neuf {
+    transition: 2s;
     width: 90%;
 }
-.huit-cinq {
+.card-bottom:hover .huit-cinq {
+    transition: 1.5s;
     width: 85%;
+}
+.card-bottom:hover .huit {
+    transition: 1s;
+    width: 80%;
 }
