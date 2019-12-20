@@ -75,7 +75,6 @@ section {
     height: 310px;
 }
 
-/* The title of the card (better than focus the h4 element) */ 
 .card-content-title {
     text-align: center;
     color: #00394C;
@@ -83,11 +82,9 @@ section {
     margin-top: 50px;
 }
 
-/* Position relative for the absolute popover */
 .card-content-body {
     position: relative;
 }
-
 
 .card-content-body .ffs {
     font-weight: bold;
@@ -174,9 +171,9 @@ section {
 }
 
 .clignot {
-    -webkit-animation-name: clignote; /*on affecte l'animation clignote à notre bouton */
-    -webkit-animation-duration: 1s; /*on définit la durée de l'animation à 1s */
-    -webkit-animation-iteration-count:infinite; /*on dit que l'animation se répétera à l'infini. */
+    -webkit-animation-name: clignote;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count:infinite;
 }
 
  .skills {
