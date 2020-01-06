@@ -1,5 +1,7 @@
 # My first side project at o'Clock School
 
+[Click here to show more](http://15.188.76.189/side/card/)
+
 ## This is my first project done in parallel with the o'clock training.
 
 It is produced in HTML, CSS and Javascript. 
