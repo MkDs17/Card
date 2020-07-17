@@ -1,6 +1,6 @@
 # My first side project at o'Clock School
 
-[Click here to show more](http://15.188.76.189/side/card/)
+[Click here to show more](https://card-dev.netlify.app/)
 
 ## This is my first project done in parallel with the o'clock training.
 
