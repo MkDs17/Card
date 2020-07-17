@@ -1,5 +1,7 @@
 # My first side project at o'Clock School
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6f28ee81-a316-4f55-a937-aad20edf5254/deploy-status)](https://app.netlify.com/sites/card-dev/deploys)
+
 [Click here to show more](https://card-dev.netlify.app/)
 
 ## This is my first project done in parallel with the o'clock training.
